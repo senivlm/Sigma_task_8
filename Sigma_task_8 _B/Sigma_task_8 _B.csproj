@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Sigma_task_8__B</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Sigma_task4_A">
+      <HintPath>..\..\Sigma_task_4_\Sigma_task4_A\bin\Debug\net5.0\Sigma_task4_A.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
