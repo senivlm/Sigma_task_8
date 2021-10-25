@@ -57,6 +57,7 @@ namespace Sigma_task_8_C
                 int index = inputLines[i].LastIndexOf('.', 
                     i == indexes.lineIndex ? indexes.signIndex - 1 : inputLines[i].Length - 1);
                 resultSentense = inputLines[i]
+                    Цю конструкцію я б хотіла обговорити
                     [(Math.Max(index + 1, 0))..(i == indexes.lineIndex ? indexes.signIndex : inputLines[i].Length)]
                 + resultSentense;
 
